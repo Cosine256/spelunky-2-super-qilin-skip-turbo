@@ -1,6 +1,6 @@
 meta.name = "Super Qilin Skip Turbo"
 meta.version = "1.0.0"
-meta.description = "This mod adds several utilities for practicing various qilin skips. Customize your loadout to practice the qilin skip of your choosing. Automatically perform common setup tasks like killing Tiamat and bombing out a hole for bubbles. There are many options specifically for bubble skip, such as spawning artificial bubbles to speed up attempts, highlighting bubbles that will safely pass the lasers, and showing interpolated bubble hitboxes. Use the visual aids to learn which bubbles to use for bubble skip, and see how actions such as jumping or throwing ropes affect the bubble's motion through the lasers. If you don't want any automation or visual aids, they can all be turned off in the options. You can also use the loadouts to practice the Tiamat fight, and spawn holding a landmine for low% or pacifist runs. Remember that you can use Ctrl+F4 to change the mod options and access the buttons at any time in Playlunky. Most changes will take effect after reloading the level. This mod is designed for the unmodded level layout and some features may not work if the level is modded."
+meta.description = "You can use Ctrl+F4 to change the mod options and access the buttons at any time in Playlunky. Most changes will take effect after reloading the level. Enter the big door in the camp or use the warp button to go straight to the Tiamat level. This mod is designed for the unmodded level layout and some features may not work if the level is modded."
 meta.author = "Cosine"
 
 local Linked_List = require "linked_list"
@@ -246,7 +246,7 @@ local DEFAULT_OPTION_VALUES = {
     skip_fade_in = true,
     skip_tiamat_cutscene = true,
     kill_tiamat = true,
-    create_bubble_pit = true,
+    create_bubble_pit = false,
     remove_ground_hazards = true,
     create_side_ropes = true,
     artificial_bubbles_enabled = true,
